@@ -1,0 +1,30 @@
+.App,
+.main-app {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #eee; */
+}
+
+.app-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.app-button {
+    background-color: #fff;
+    border: 1px solid #4e97f4;
+    border-radius: 3px;
+    color: #4e97f4;
+    padding: 4px 8px;
+}
+
+.app-container {
+    min-width: 400px;
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    padding: 16px 0px;
+}
